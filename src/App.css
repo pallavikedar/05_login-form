@@ -1,6 +1,6 @@
 /* start */
 .App{
-  height: 400px;
+  height: 500px;
   width:400px;
   background-color: black;
   margin-top: 200px;
@@ -30,6 +30,7 @@
   background-color: #000000;
   border: 0.1px solid rgb(120, 115, 115);
   margin-top: 10px;
+  color: white;
 }
 .App form .button {
   padding-top: 30px;
