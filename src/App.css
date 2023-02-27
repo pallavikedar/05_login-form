@@ -1,0 +1,49 @@
+body{
+  background-color:rgb(65, 64, 64);
+}
+
+.App{
+  height: 400px;
+  width:400px;
+  background-color: black;
+  margin-top: 200px;
+  margin-left: 550px;
+  border-radius: 10px;
+}
+/* heading in login */
+.App h1{
+  color: white;
+  font-size: 44px;
+  padding-left: 145px;
+}
+/* form starting */
+.App form{
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.App form .label{
+  color: white;
+  font-size: 20px;
+  font-family:sans-serif;
+
+}
+.App form input{
+  height: 40px;
+  width: 300px;
+  background-color: #000000;
+  border: 0.1px solid rgb(120, 115, 115);
+  margin-top: 10px;
+}
+.App form .button {
+  padding-top: 30px;
+}
+.App form .button button{
+  height: 40px;
+  width: 300px;
+  background-color: rgb(65, 64, 64);
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+
+}
+/* form end */
