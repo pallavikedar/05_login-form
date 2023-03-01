@@ -42,7 +42,7 @@ function Login() {
   return (
     <div className="login">
       <h1>Login</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}> 
         <FormGroup
           label="username"
           type="text"
@@ -51,10 +51,11 @@ function Login() {
           name="username"
           placeholder="Username"
           onChange={handleChange}
+          errors={errors.username}
         />
 
        
-        {errors.username && <p style={{ color: "red" }}>{errors.username}</p>}
+        
 
         <FormGroup
           label="password"
@@ -64,8 +65,9 @@ function Login() {
           name="password"
           placeholder="password"
           onChange={handleChange}
+          errors={errors.password}
         />
-        {errors.password && <p style={{ color: "red" }}>{errors.password}</p>}
+       
         <Button label="Login"/>
       </form>
     </div>

@@ -79,10 +79,9 @@ function Register() {
           name="username"
           placeholder="Username"
           onChange={handleChange}
+          errors={errors.username}
         />
-        {errors.username && (
-          <div style={{ color: "red" }}>{errors.username}</div>
-        )}
+        
         <FormGroup
           label="First Name"
           type="text"
@@ -91,10 +90,9 @@ function Register() {
           name="firstName"
           placeholder="First Name"
           onChange={handleChange}
+          errors={errors.firstName}
         />
-        {errors.firstName && (
-          <div style={{ color: "red" }}>{errors.firstName}</div>
-        )}
+        
         <FormGroup
           label="Last Name"
           type="text"
@@ -103,10 +101,9 @@ function Register() {
           name="lastName"
           placeholder="last Name"
           onChange={handleChange}
+          errors={errors.lastName}
         />
-        {errors.lastName && (
-          <div style={{ color: "red" }}>{errors.lastName}</div>
-        )}
+       
         <div className="label">
           <label>Gender</label>
         </div>
@@ -126,10 +123,9 @@ function Register() {
           name="password"
           placeholder="Password"
           onChange={handleChange}
+          errors={errors.password}
         />
-        {errors.password && (
-          <div style={{ color: "red" }}>{errors.password}</div>
-        )}
+        
         <FormGroup
           label="Confirm Password"
           type="password"
@@ -138,10 +134,10 @@ function Register() {
           name="password"
           placeholder="Confirm Password"
           onChange={handleChange}
+          errors={errors.confirmPassword}
         />
-        {errors.confirmPassword && (
-          <div style={{ color: "red" }}>{errors.confirmPassword}</div>
-        )}
+        
+        
         <Button label="Register" />
       </form>
     </div>

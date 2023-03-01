@@ -18,16 +18,5 @@
     padding-left: 40px;
   }
   
-  .login form .button {
-    padding-top: 30px;
-  }
-  .login form .button button{
-    height: 40px;
-    width: 300px;
-    background-color: rgb(65, 64, 64);
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-  
-  }
+ 
   /* form end */
