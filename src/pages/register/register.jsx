@@ -129,9 +129,9 @@ function Register() {
         <FormGroup
           label="Confirm Password"
           type="password"
-          id="password"
-          value={values.password}
-          name="password"
+          id="confirmPassword"
+          value={values.confirmPassword}
+          name="confirmPassword"
           placeholder="Confirm Password"
           onChange={handleChange}
           errors={errors.confirmPassword}
