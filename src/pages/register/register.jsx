@@ -63,7 +63,7 @@ function Register() {
     } else if (values.password !== values.confirmPassword) {
       errors.confirmPassword = "not matching ";
     }
-   
+
     return errors;
   };
 
@@ -81,7 +81,7 @@ function Register() {
           onChange={handleChange}
           errors={errors.username}
         />
-        
+
         <FormGroup
           label="First Name"
           type="text"
@@ -92,7 +92,7 @@ function Register() {
           onChange={handleChange}
           errors={errors.firstName}
         />
-        
+
         <FormGroup
           label="Last Name"
           type="text"
@@ -103,7 +103,7 @@ function Register() {
           onChange={handleChange}
           errors={errors.lastName}
         />
-       
+
         <div className="label">
           <label>Gender</label>
         </div>
@@ -125,7 +125,7 @@ function Register() {
           onChange={handleChange}
           errors={errors.password}
         />
-        
+
         <FormGroup
           label="Confirm Password"
           type="password"
@@ -136,8 +136,7 @@ function Register() {
           onChange={handleChange}
           errors={errors.confirmPassword}
         />
-        
-        
+
         <Button label="Register" />
       </form>
     </div>
