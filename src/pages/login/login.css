@@ -17,20 +17,7 @@
     padding-top: 20px;
     padding-left: 40px;
   }
-  .login form .label{
-    color: white;
-    font-size: 20px;
-    font-family:sans-serif;
   
-  }
-  .login form input{
-    height: 40px;
-    width: 300px;
-    background-color: #000000;
-    border: 0.1px solid rgb(120, 115, 115);
-    margin-top: 10px;
-    color: white;
-  }
   .login form .button {
     padding-top: 30px;
   }
